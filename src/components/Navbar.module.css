@@ -1,0 +1,61 @@
+.container {
+    
+    border-radius: 10px;
+    width: 1200px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 4px silver inset;
+}
+
+.image img{
+    width: 170px;
+    height: 100px;
+}
+.image {
+    padding: 10px 0;
+}
+
+.listItems > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row-reverse;
+}
+
+.listItems > ul > li {
+    padding: 15px 5px;
+    margin: 0 10px;
+    
+}
+
+.khadamatOff {
+    display: none;
+}
+
+.khadamatOn {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    z-index: 10px;
+    border: 1px solid black;
+    position: relative;
+    left: 450px;
+    bottom: 50px;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 1px 1px 3px silver inset;
+}
+.khadamatOn ul {
+    list-style-type: none;
+    padding: 10px ;
+}
+
+.khadamatOn li {
+    margin: 10px 10px;
+    font-size: 1.2rem;
+}
+
+
